@@ -1,0 +1,117 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text("WhatsApp"),
+          backgroundColor: Colors.green,
+        ),
+        body: Column(
+          children: <Widget>[
+            Container(
+              color: Colors.green,
+              height: 60.0,
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: <Widget>[
+                  Icon(Icons.camera),
+                  Text(
+                    "CHATS",
+                    style: TextStyle(fontSize: 25.0),
+                  ),
+                  Text(
+                    'STATUS',
+                    style: TextStyle(fontSize: 25.0),
+                  ),
+                  Text(
+                    'CALLS',
+                    style: TextStyle(fontSize: 25.0),
+                  )
+                ],
+              ),
+            ),
+            Column(
+              children: <Widget>[
+                ListTile(
+                  title: Text("KLECET Flutter"),
+                  subtitle: Text("Uttam Sir : Hi Abhi"),
+                  leading: CircleAvatar(
+                    backgroundColor: Colors.lime,
+                  ),
+                  trailing: Text("8:53"),
+                ),
+                ListTile(
+                  title: Text("KLECET Flutter"),
+                  subtitle: Text("Uttam Sir : Hi Abhi"),
+                  leading: CircleAvatar(
+                    backgroundColor: Colors.lime,
+                  ),
+                  trailing: Text("8:53"),
+                ),
+                ListTile(
+                  title: Text("KLECET Flutter"),
+                  subtitle: Text("Uttam Sir : Hi Abhi"),
+                  leading: CircleAvatar(
+                    backgroundColor: Colors.lime,
+                  ),
+                  trailing: Text("8:53"),
+                ),
+                ListTile(
+                  title: Text("KLECET Flutter"),
+                  subtitle: Text("Uttam Sir : Hi Abhi"),
+                  leading: CircleAvatar(
+                    backgroundColor: Colors.lime,
+                  ),
+                  trailing: Text("8:53"),
+                ),
+                ListTile(
+                  title: Text("KLECET Flutter"),
+                  subtitle: Text("Uttam Sir : Hi Abhi"),
+                  leading: CircleAvatar(
+                    backgroundColor: Colors.lime,
+                  ),
+                  trailing: Text("8:53"),
+                ),
+                ListTile(
+                  title: Text("KLECET Flutter"),
+                  subtitle: Text("Uttam Sir : Hi Abhi"),
+                  leading: CircleAvatar(
+                    backgroundColor: Colors.lime,
+                  ),
+                  trailing: Text("8:53"),
+                ),
+                ListTile(
+                  title: Text("KLECET Flutter"),
+                  subtitle: Text("Uttam Sir : Hi Abhi"),
+                  leading: CircleAvatar(
+                    backgroundColor: Colors.lime,
+                  ),
+                  trailing: Text("8:53"),
+                ),
+                ListTile(
+                  title: Text("KLECET Flutter"),
+                  subtitle: Text("Uttam Sir : Hi Abhi"),
+                  leading: CircleAvatar(
+                    backgroundColor: Colors.lime,
+
+                  ),
+                  trailing: Text("8:53"),
+
+                ),
+
+
+              ],
+            )
+          ],
+        ),
+      ),
+    );
+  }
+}
